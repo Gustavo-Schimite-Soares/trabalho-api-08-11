@@ -1,0 +1,15 @@
+header figure {
+    display: flex;
+}
+
+header figure img {
+    padding: 1em;
+}
+
+header figure figcaption {
+    padding: 2em;
+}
+
+header .bg-green {
+    background-color: rgb(67, 95, 38);
+}
