@@ -1,4 +1,5 @@
 $(document).ready(() => {
+
   $("#btn-home").ready((e) => {
     getPagina("_html/home.html", "main");
   });
@@ -7,7 +8,13 @@ $(document).ready(() => {
     $("#destaque").hide();
     getPagina("_html/galeria.html", "main");
   });
+
   $("#btn-home").click((e) => {
+    $("#destaque").show();
+    getPagina("_html/home.html", "main");
+  });
+
+  $("#btn-home-logo").click((e) => {
     $("#destaque").show();
     getPagina("_html/home.html", "main");
   });
