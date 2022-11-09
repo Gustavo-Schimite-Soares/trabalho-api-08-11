@@ -5,6 +5,15 @@
   margin: 0;
 }
 
+/* NAV-BAR */
+#btn-encontrar {
+  color: rgb(0, 0, 0, 0);
+}
+
+#btn-encontrar:hover {
+  color: rgb(0, 0, 0, 1);
+}
+
 body
 {
   width: 100vw;
@@ -50,7 +59,6 @@ footer {
   border-top: 3px solid rgb(51, 61, 41);
 }
 
-
 figure {
   width: 80vw;
   margin: 0 auto;
@@ -63,13 +71,18 @@ figure {
   width: 32px;
 }
 
-footer figure figcaption {
-}
-
 /* GALERIA */
 .card {
   margin: 1em;
   text-align: center;
+}
+
+.card-header {
+  background-color: rgba(94, 112, 57, 0.514);
+}
+
+.card-body {
+  background-color: rgba(141, 160, 102, 0.514);
 }
 
 main div img {

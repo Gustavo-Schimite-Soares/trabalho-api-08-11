@@ -43,13 +43,11 @@ const getAnimal = () => {
               $(img).addClass('card-img-topo');
               $(cardHeader).addClass('card-header');
               $(cardBody).addClass('card-body');
-              
 
               $(cardHeader).attr('id', `ch-pkm${i}`);
               
               $(cardHeader).html(`<h1>${p.name}</h1>`);
-              $(cardBody).html(`<img src='${p.image_link} '>`)
-              
+              $(cardBody).html(`<img src='${p.image_link} '>`);
               
               $(card).append(cardHeader)
                      .append(cardBody);
