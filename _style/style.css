@@ -7,6 +7,8 @@
 
 body
 {
+  width: 100vw;
+  overflow-x: hidden;
   background: linear-gradient(to bottom right, rgb(164, 172, 134)), rgb(194, 197, 170);
 }
 
@@ -39,13 +41,17 @@ header {
   text-indent: 20px;
 }
 
+/* FOOTER */
 footer {
+  width: 100vw;
+  position: fixed;
+  bottom: 0;
   border-top: 3px solid rgb(51, 61, 41);
 }
 
+
 figure {
   width: 80vw;
-  padding:2em;
   margin: 0 auto;
   display: flex;
   justify-content:center;
@@ -56,14 +62,17 @@ figure {
   width: 32px;
 }
 
-/* GALERIA */
-#galeria {
-    width: 90vw;
-    margin-left: auto;
-    margin-right: auto;
+footer figure figcaption {
 }
 
-.card-customized {
-    float: left;
-    margin: 1em 2em 0em 2em;
+/* GALERIA */
+.card {
+  margin: 1em;
+  text-align: center;
+}
+
+main div img {
+  width: 200px;
+  height: 200px;
+  padding: 5px;
 }
