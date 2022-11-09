@@ -40,6 +40,7 @@ const getAnimal = () => {
               let img = document.createElement('img');
               $(li).addClass('col-4');
               $(card).addClass('card');
+              $(card).addClass('hvr-grow');
               $(img).addClass('card-img-topo');
               $(cardHeader).addClass('card-header');
               $(cardBody).addClass('card-body');
