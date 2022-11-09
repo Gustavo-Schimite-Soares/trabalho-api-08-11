@@ -7,6 +7,10 @@ $(document).ready(() => {
     $("#destaque").hide();
     getPagina("_html/galeria.html", "main");
   });
+  $("#btn-home").click((e) => {
+    $("#destaque").show();
+    getPagina("_html/home.html", "main");
+  });
 });
 
 var getPagina = (page, target) => {
