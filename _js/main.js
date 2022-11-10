@@ -28,9 +28,9 @@ const getAnimal = () => {
       url: URL_API,
       dataType: 'json',
       success: (data) => {
-          let listPkm = document.createElement('div');
-          $(listPkm).addClass('row');
-          $('#getAnimal').html(listPkm);
+          let listAnimal = document.createElement('div');
+          $(listAnimal).addClass('row');
+          $('#getAnimal').html(listAnimal);
 
           data.forEach((p, i) => {
               let li = document.createElement('div');
@@ -53,7 +53,7 @@ const getAnimal = () => {
               $(card).append(cardHeader)
                      .append(cardBody);
               $(li).append(card);                     
-              $(listPkm).append(li);
+              $(listAnimal).append(li);
           });
       }
   });
